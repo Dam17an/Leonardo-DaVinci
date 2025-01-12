@@ -1,0 +1,30 @@
+$primary-color: #02091C;
+$secondary-color: #FFFF;
+$terciary-color: #7F8087;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $primary-color;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+// Header
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  .title-image {
+    height: auto;
+    max-height: 50px;
+  }
+
+  .menu-icon {
+    height: auto;
+    max-height: 30px;
+    cursor: pointer;
+  }
+}
