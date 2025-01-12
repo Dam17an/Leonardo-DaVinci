@@ -2,6 +2,7 @@ $primary-color: #02091C;
 $secondary-color: #FFFF;
 $terciary-color: #7F8087;
 
+
 body {
   margin: 0;
   padding: 0;
@@ -26,5 +27,72 @@ header {
     height: auto;
     max-height: 30px;
     cursor: pointer;
+  }
+}
+//main odsek
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  padding: 2rem;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+
+
+    .text {
+      max-width: 50%;
+      color: $terciary-color;
+      position: relative;
+      top: -50px;
+      left: -100px;
+      margin-top: 260px;
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        color: $secondary-color;
+        font-size: 60px;
+      }
+
+      p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        font-size: 30px;
+      }
+
+      .links {
+        display: flex;
+        gap: 19rem;
+        text-decoration: none;
+        font-size: 20px;
+
+        .link {
+          color: $secondary-color;
+          text-decoration: none;
+          font-size: 1rem;
+          font-weight: bold;
+
+          &:hover {
+            color: $terciary-color;
+          }
+        }
+      }
+    }
+
+    .image-container {
+      max-width: 50%;
+      text-align: center;
+
+      .person-image {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+      }
+    }
   }
 }

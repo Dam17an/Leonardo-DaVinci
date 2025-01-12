@@ -23,4 +23,68 @@ header .menu-icon {
   height: auto;
   max-height: 30px;
 }
+
+main {
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  padding: 2rem;
+  display: flex;
+}
+
+main .content {
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+}
+
+main .content .text {
+  color: #7f8087;
+  max-width: 50%;
+  margin-top: 260px;
+  position: relative;
+  top: -50px;
+  left: -100px;
+}
+
+main .content .text h1 {
+  color: #fff;
+  margin-bottom: .5rem;
+  font-size: 60px;
+}
+
+main .content .text p {
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+
+main .content .text .links {
+  gap: 19rem;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+}
+
+main .content .text .links .link {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main .content .text .links .link:hover {
+  color: #7f8087;
+}
+
+main .content .image-container {
+  text-align: center;
+  max-width: 50%;
+}
+
+main .content .image-container .person-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
 /*# sourceMappingURL=index.574c7455.css.map */
